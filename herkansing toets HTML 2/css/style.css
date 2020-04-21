@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: grey;
+}
+.grid-container {
+    margin-left: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    width: 1000px;
+    text-align: center;
+}
+
+.header {
+    grid-column: 1/5;
+}
+
+.menu {
+    margin-bottom: 50px;;
+    margin-top: 5px;
+    grid-row: 2/3;
+    grid-column: 1/6;
+    background-color: #36b2d8;;
+    height: 50px;
+}
+
+.menu>ul>li>a {
+    padding: 20px 10px 14px 10px;
+    background-color: #d3721d;
+}
+
+.menu>ul>li>a:hover {
+    background-color: white;
+}
+
+a {
+    height: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+	margin: 41px;
+}
+
+.item {
+    margin-top: 6px;
+}
+
+.cda {
+    grid-row: 3/4;
+    grid-column:1/4;
+}
+
+.vvd {
+  grid-row: 3/4;
+  grid-column: 4/5;  
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.d66 {
+    grid-row: 4/5;
+    grid-column: 1/4;
+}
+.pvda {
+    grid-row: 4/5;
+    grid-column: 4/5;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.tweede {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    padding: 20px;
+    background-color: #36b2d8;
+}
+
+.logo {
+    grid-row: 3/4 ;
+    grid-column:4/6 ;
+    padding: 20px;
+    background-color: #d3721d;
+}
+
+.sybrand {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.agnes {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.harry {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.cda-logo {
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.klaas {
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+.jan-remco {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.bas {
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+
+.sophie {
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+.dilan-judith {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.ockje {
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.footer {
+    grid-row: 5/6;
+    grid-column: 1/5;
+    background-color: #36b2d8;
+    grid-column: 1/6;
+    padding: 20px;
+}
